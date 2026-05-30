@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-Live at: [providencedesign.github.io](https://providencedesign.github.io)
+Live at: [providencedesign.github.io](https://providence-design.github.io/)
 
 ---
 
@@ -55,7 +55,7 @@ I could have thrown everything into one file and called it a day, but that felt 
 Clone the repo and open `index.html` in your browser. That is genuinely all there is to it.
 
 ```bash
-git clone https://github.com/ProvidenceDesign/ProvidenceDesign.github.io.git
+git clone https://github.com/ProvidenceDesign/Providence-Design.github.io.git
 cd ProvidenceDesign.github.io
 open index.html
 ```
