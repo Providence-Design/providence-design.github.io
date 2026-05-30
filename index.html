@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Providence Annor Asemah — DevOps & Cloud Platform Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="inner">
+      <span class="nav-name">Providence Annor Asemah</span>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <p class="hero-eyebrow">DevOps · Cloud · Infrastructure</p>
+      <h1><strong>Providence</strong><br>Annor Asemah</h1>
+      <p class="hero-sub">
+        Cloud Platform Engineer specialising in Kubernetes, GitOps, Istio service mesh, and Terraform IaC.
+        Currently building and hardening production infrastructure at Betika, a leading sports betting platform across Africa.
+      </p>
+      <div class="hero-links">
+        <a href="mailto:baabaprovidence@gmail.com" class="btn btn-primary">Get in touch</a>
+        <a href="assets/Providence_Annor_Asemah_CV.pdf" download class="btn btn-ghost">Download CV</a>
+        <a href="https://linkedin.com/in/providence-annor-asemah" target="_blank" class="btn btn-ghost">LinkedIn</a>
+        <a href="https://github.com/ProvidenceDesign" target="_blank" class="btn btn-ghost">GitHub</a>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <p class="section-label">Experience</p>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">DevOps / Cloud Platform Engineer</span>
+          <span class="job-period">Dec 2023 — Present</span>
+        </div>
+        <div class="job-company">Ionix International DMCC (Betika) · Remote</div>
+        <ul class="job-bullets">
+          <li>Replaced internal-nginx with an Istio internal gateway, updating Helm charts and preserving internal TLS via LoadBalancer.</li>
+          <li>Evaluated three Istio upgrade approaches; authored full runbook covering upgrade procedure, pre-upgrade checklist, and rollback steps.</li>
+          <li>Added cert-manager to staging environment with scoped service account and GCP CA pool integration.</li>
+          <li>Contributed to terraform-gke-clusters, terraform-gcp-projects-iam, terraform-gcp-pki, and terraform-hcp-vault repositories.</li>
+          <li>Orchestrated 15+ GKE deployments using Helm and ArgoCD, reducing deployment time by 80% and eliminating manual kubectl interventions.</li>
+          <li>Cut deployment duration by 50% through automated Go and Next.js deployments to GCP VMs.</li>
+          <li>Boosted deployment frequency by 80% via GitHub Actions CI/CD pipelines, accelerating releases from biweekly to weekly.</li>
+          <li>Mitigated security risks by 95% through preventive vulnerability scanning with Trivy.</li>
+          <li>Reduced configuration drift by 60% via Ansible server configuration management.</li>
+          <li>Improved onboarding efficiency by 30% by designing comprehensive visual deployment documentation in Confluence.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Software DevOps Engineer</span>
+          <span class="job-period">Jul 2021 — Sept 2024</span>
+        </div>
+        <div class="job-company">Turntabl Ghana Limited · Accra, Ghana</div>
+        <ul class="job-bullets">
+          <li>Built scalable CI/CD infrastructure automating builds, testing, and deployments across multiple projects, increasing productivity by 90%.</li>
+          <li>Engineered disaster recovery strategy for self-hosted GitLab with automated backups, regional replication, and failover servers.</li>
+          <li>Provisioned and secured a self-managed GitLab server on AWS EC2 restricted to company VPN, reducing external access risks by 80%.</li>
+          <li>Containerised applications with Docker and built GitLab CI/CD pipelines, improving deployment efficiency by 85%.</li>
+          <li>Deployed microservices to AWS Kubernetes clusters using Helm, reducing deployment errors by 60%.</li>
+          <li>Optimised AWS costs by 30% through automated cleanup of unused Docker images in ECR.</li>
+          <li>Led deployments of Java Spring Boot, React, Angular, and Kotlin applications, reducing rollout times by 65%.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Software Engineer, TLC Operator</span>
+          <span class="job-period">Sept 2021 — Dec 2021</span>
+        </div>
+        <div class="job-company">Turntabl Ghana Limited · Accra, Ghana</div>
+        <ul class="job-bullets">
+          <li>Facilitated training programmes for 50 new junior software engineers, achieving a 95% satisfaction rate.</li>
+          <li>Augmented productivity by 40% through facilitation of networking activities during training.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Junior Software Engineer</span>
+          <span class="job-period">Nov 2020 — Jul 2021</span>
+        </div>
+        <div class="job-company">Turntabl Ghana Limited · Accra, Ghana</div>
+        <ul class="job-bullets">
+          <li>Collaborated on developing an IntelliJ IDEA Plugin to track JVM details and monitor live production applications, improving monitoring accuracy by 40%.</li>
+          <li>Led development of the Turntabl-Exe Project, streamlining recruitment onboarding and boosting efficiency by 70%.</li>
+          <li>Managed PostgreSQL database for data storage and recovery, increasing data retrieval speed by 85%.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <p class="section-label">Skills</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <p class="skill-group-title">DevOps & Orchestration</p>
+          <div class="tags">
+            <span class="tag">Kubernetes</span>
+            <span class="tag">GKE</span>
+            <span class="tag">EKS</span>
+            <span class="tag">Helm</span>
+            <span class="tag">ArgoCD</span>
+            <span class="tag">Istio</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">CI/CD & Automation</p>
+          <div class="tags">
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">GitLab CI/CD</span>
+            <span class="tag">Jenkins</span>
+            <span class="tag">Ansible</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Cloud & IaC</p>
+          <div class="tags">
+            <span class="tag">GCP</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Terraform</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Security & Monitoring</p>
+          <div class="tags">
+            <span class="tag">HCP Vault</span>
+            <span class="tag">cert-manager</span>
+            <span class="tag">Trivy</span>
+            <span class="tag">Prometheus</span>
+            <span class="tag">Grafana</span>
+            <span class="tag">ELK Stack</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Programming</p>
+          <div class="tags">
+            <span class="tag">Shell</span>
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Databases</p>
+          <div class="tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <p class="section-label">Projects</p>
+      <div class="project-card">
+        <p class="project-title">AWS PostgreSQL Cloud Infrastructure</p>
+        <p class="project-context">AltSchool Africa — Diploma in Cloud Engineering · Capstone Project</p>
+        <ul class="job-bullets">
+          <li>Provisioned a full AWS PostgreSQL infrastructure using Terraform: RDS in private subnets, security groups, parameter groups, and automated backups with 7-day retention.</li>
+          <li>Implemented secure database access via an SSM-based EC2 jumpbox with port-forwarding, eliminating public RDS exposure.</li>
+          <li>Automated schema deployment via GitHub Actions CI/CD pipeline running Terraform plan and apply on push to main.</li>
+          <li>Applied least-privilege IAM policies and enforced encryption at rest and in transit, targeting AWS free-tier cost optimisation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <p class="section-label">Education</p>
+      <div class="edu-grid">
+        <div class="edu-item">
+          <div>
+            <p class="edu-degree">MSc Cybersecurity and Digital Forensics <em style="font-size:12px; color: var(--accent); font-style:normal;">(In Progress)</em></p>
+            <p class="edu-school">Kwame Nkrumah University of Science and Technology (KNUST), Ghana</p>
+          </div>
+          <span class="edu-year">2025 — 2026</span>
+        </div>
+        <div class="edu-item">
+          <div>
+            <p class="edu-degree">Diploma in Cloud Engineering</p>
+            <p class="edu-school">AltSchool Africa</p>
+          </div>
+          <span class="edu-year">2024 — 2025</span>
+        </div>
+        <div class="edu-item">
+          <div>
+            <p class="edu-degree">BSc Computer Science</p>
+            <p class="edu-school">University of Cape Coast, Ghana</p>
+          </div>
+          <span class="edu-year">2016 — 2020</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <p class="section-label">Contact</p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <a href="mailto:baabaprovidence@gmail.com" class="contact-value">baabaprovidence@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+233 544 032 856</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/providence-annor-asemah" target="_blank" class="contact-value">providence-annor-asemah</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/ProvidenceDesign" target="_blank" class="contact-value">ProvidenceDesign</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Accra, Ghana</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Providence Annor Asemah · DevOps & Cloud Platform Engineer · Accra, Ghana
+    </div>
+  </footer>
+
+</body>
+</html>
