@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-Live at: [providencedesign.github.io](https://providence-design.github.io/)
+Live at: [providence-design.github.io](https://providence-design.github.io/)
 
 ---
 
@@ -56,7 +56,7 @@ Clone the repo and open `index.html` in your browser. That is genuinely all ther
 
 ```bash
 git clone https://github.com/ProvidenceDesign/Providence-Design.github.io.git
-cd ProvidenceDesign.github.io
+cd Providence-Design.github.io
 open index.html
 ```
 
