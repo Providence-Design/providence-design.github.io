@@ -64,7 +64,7 @@ open index.html
 
 ## Deploying updates
 
-Any push to the `main` branch automatically updates the live site via GitHub Pages. No CI/CD pipeline needed for something this straightforward — though I did consider it out of habit.
+Any push to the `main` branch automatically updates the live site via GitHub Pages. No CI/CD pipeline needed for something this straightforward though I did consider it out of habit.
 
 ---
 
